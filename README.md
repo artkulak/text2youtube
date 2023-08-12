@@ -1,8 +1,3 @@
-[//]: (![text2youtube]&#40;https://your-project-image-url-here&#41;)
-<div align="center">
-  <img src="https://your-project-image-url-here" alt="Project Image">
-</div>
-
 # 🎬 text2youtube
 
 ## Description
