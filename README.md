@@ -2,17 +2,20 @@
 
 ## Description
 
-The text2youtube is an innovative program that leverages the power of AI and neural networks to automate the process of video content creation. This project aims to streamline the creation of engaging videos by employing advanced AI technologies for scenario generation, text-to-speech synthesis, and video compilation.
+text2youtube leverages the power of AI to automate the process of video content creation. This project aims to streamline the creation of engaging videos by employing advanced AI technologies for scenario generation, text-to-speech synthesis, and video compilation.
 
 ## Features
 
-🤖 Interacts with OpenAI's ChatGPT to take on various roles like a YouTuber or a YouTube channel.  
 📜 Generates captivating video scenarios based on provided content or user inputs.  
 🎙 Provides video meta information, including video descriptions and names, using ChatGPT.  
 🔊 Utilizes neural network-based text-to-speech synthesis to create realistic and lifelike audio.  
 🎨 Crafts compelling search queries for video backgrounds to complement the generated scenarios.  
-🌐 Downloads suitable videos from YouTube or videoblocks.com based on the crafted search queries.  
-✂ Cuts and edits the downloaded videos to synchronize with the synthesized voiceover.  
+🌐 Downloads suitable videos from YouTube or storyblocks.com based on the crafted search queries.  
+
+## Demos
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NpBJ4CFtGK4PWxQkb9D6pD5a2KNf8eKt?usp=sharing)
+
 
 ## Getting Started
 
@@ -46,7 +49,7 @@ The project is organized into several modules:
 
 ## Contributors
 
-- [Artyom K](https://github.com/artkulak)
+- [Art Kulakov](https://github.com/artkulak)
 - [Movses M](https://github.com/mirmozavr)
 
 
