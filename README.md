@@ -1,3 +1,11 @@
+<p>
+<img src="https://img.shields.io/github/forks/artkulak/text2youtube.svg">
+<img src="https://img.shields.io/github/stars/artkulak/text2youtube.svg">
+<img src="https://img.shields.io/github/watchers/artkulak/text2youtube.svg">
+<img src="https://img.shields.io/github/last-commit/artkulak/text2youtube.svg">
+<img src="https://hits.sh/github.com/artkulak/text2youtube.svg">
+</p>
+
 # 🎬 text2youtube
 
 ## Description
