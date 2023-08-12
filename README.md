@@ -2,59 +2,56 @@
 
 ## Description
 
-Welcome to text2youtube! 🌟 This groundbreaking project harnesses the magic of AI and neural networks to revolutionize video content creation. Say goodbye to the tedious manual process – text2youtube takes care of scenario generation, text-to-speech synthesis, and video compilation with a sprinkle of AI innovation.
+The text2youtube is an innovative program that leverages the power of AI and neural networks to automate the process of video content creation. This project aims to streamline the creation of engaging videos by employing advanced AI technologies for scenario generation, text-to-speech synthesis, and video compilation.
 
 ## Features
 
-🤖 Step into various roles with ChatGPT, from YouTuber to YouTube channel owner.  
-📜 Generate captivating video scenarios based on your content or inputs.  
-🎙️ Craft video meta info, including names and descriptions, using the brilliance of ChatGPT.  
-🔊 Experience the power of neural network-based text-to-speech synthesis for lifelike audio.  
-🎨 Curate compelling search queries for stunning video backgrounds that complement your scenarios.  
-🌐 Download fitting videos from YouTube or videoblocks.com, guided by your crafted search queries.  
-✂️ Seamlessly cut and edit downloaded videos to sync up with the synthesized voiceover.  
+🤖 Interacts with OpenAI's ChatGPT to take on various roles like a YouTuber or a YouTube channel.  
+📜 Generates captivating video scenarios based on provided content or user inputs.  
+🎙 Provides video meta information, including video descriptions and names, using ChatGPT.  
+🔊 Utilizes neural network-based text-to-speech synthesis to create realistic and lifelike audio.  
+🎨 Crafts compelling search queries for video backgrounds to complement the generated scenarios.  
+🌐 Downloads suitable videos from YouTube or videoblocks.com based on the crafted search queries.  
+✂ Cuts and edits the downloaded videos to synchronize with the synthesized voiceover.  
 
 ## Getting Started
 
-1. Start by installing the necessary dependencies: `pip install -r requirements.txt`.
-2. Enhance your text-to-speech experience with: `pip install git+https://github.com/suno-ai/bark.git`.
-3. Ensure `cookies.json` holds your **storyblocks.com** credentials for smooth access.
-4. Keep things organized with `env.yaml`, providing your OpenAI API key and working directories.
-5. Fill the prompts directory with essential OpenAI prompts.
-6. Feed your creative juices by providing content inputs in text files within the `SOURCE_DIR`.
-7. Fire up the creativity engine by running `app.py` – let it do the heavy lifting.
-8. Relax and enjoy as the program crafts mesmerizing videos with captivating voiceovers.
+1. Install the required dependencies by running `pip install -r requirements.txt`.
+2. Install text-to-speech `pip install git+https://github.com/suno-ai/bark.git`
+3. Ensure the `cookies.json` file is present with necessary credentials for **storyblocks.com** website access.
+4. Ensure `env.yaml` file is present providing OpenAi API key and working directories
+5. Provide the necessary OpenAI prompt in prompts directory
+6. Provide the necessary content inputs in text files in SOURCE_DIR
+7. Run the main application file `app.py` to start the content creation process.
+8. The program will handle the rest, creating engaging videos with captivating voiceovers.
 
 ## Project Structure
 
-Dive into the modular organization of text2youtube:
+The project is organized into several modules:
 
-- `src.audio`: Unleash audio magic with text-to-speech synthesis.
-- `src.config`: Centralize configuration settings for the whole show.
-- `src.logger`: Document the journey with built-in logging.
-- `src.openai_generation`: Forge connections with ChatGPT for scenario creation.
-- `src.video_processing`: Command video downloads from YouTube or videoblocks.com.
-- `src.utils`: A treasure trove of utility functions for data and files.
-- `src.video`: Unveil video mastery with compilation and editing.
+- `src.audio`: Contains audio-related functions for text-to-speech synthesis.
+- `src.config`: Stores configuration settings for the program.
+- `src.logger`: Implements logging functionality for the application.
+- `src.openai_generation`: Handles interactions with OpenAI's ChatGPT for scenario generation.
+- `src.video_processing`: Manages video downloads from YouTube or videoblocks.com.
+- `src.utils`: Contains utility functions for data processing and file handling.
+- `src.video`: Includes video-related functions for compilation and editing.
 
 ## Dependencies
 
-The brilliance behind the scenes:
+- [OpenAI GPT-3 API](https://openai.com): For scenario generation using language models.
+- [Neural Network Text-to-Speech Library BARK](https://github.com/suno-ai/bark/): For realistic audio synthesis.
+- [Python Requests Library](https://pypi.org/project/requests/): For website access and video downloads.
+- [MoviePy Library](https://pypi.org/project/moviepy/): For video compilation and editing.
 
-- [OpenAI GPT-3 API](https://openai.com): Elevate scenarios with language model mastery.
-- [Neural Network Text-to-Speech Library BARK](https://github.com/suno-ai/bark/): Elevate audio to lifelike realms.
-- [Python Requests Library](https://pypi.org/project/requests/): Connect with the web for downloads and more.
-- [MoviePy Library](https://pypi.org/project/moviepy/): Craft and edit videos with cinematic flair.
-
-## Meet the Creators
-
-Our fantastic minds behind text2youtube:
+## Contributors
 
 - [Artyom K](https://github.com/artkulak)
 - [Movses M](https://github.com/mirmozavr)
 
+
 ## License
 
-This project dances under the [MIT License](LICENSE). Go ahead, remix and enjoy!
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it according to your needs.
 
-[![Test and Lint](https://github.com/artkulak/text2youtube/actions/workflows/check.yml/badge.svg)](https://github.com/artkulak/text2youtube/actions/workflows/check.yml)
+[![Test and lint](https://github.com/artkulak/text2youtube/actions/workflows/check.yml/badge.svg)](https://github.com/artkulak/text2youtube/actions/workflows/check.yml)
