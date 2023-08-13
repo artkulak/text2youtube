@@ -10,7 +10,7 @@
 
 ## Description
 
-text2youtube leverages the power of AI to automate the process of video content creation. This project aims to streamline the creation of engaging videos by employing advanced AI technologies for scenario generation, text-to-speech synthesis, and video compilation.
+text2youtube uses cutting-edge AI power for YouTube automation, transforming simple text into engaging video content. Designed with YouTube automation and text-to-video technology in mind, this project streamlines the process of video content creation. It employs advanced AI for scenario generation, text-to-speech synthesis, and video compilation, making it an innovative tool in the field of text-to-video and YouTube automation.
 
 ## Features
 
