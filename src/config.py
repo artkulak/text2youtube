@@ -18,6 +18,8 @@ class Config:
 def get_config(path: Union[str, Path] = None) -> Config:
     if path is None:
         path = Path(__file__).parent.parent.joinpath("env.yaml")
+    if not Path(path).exists():
+        path = Path(__file__).parent.parent.joinpath("example.env.yaml")
     with open(path, encoding="utf-8") as f:
         config = Config(**safe_load(f))
     return config
