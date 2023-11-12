@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ORGANIC_SESSION",
+    "value": "1",
+    "domain": ".www.storyblocks.com",
+    "path": "/video/stock",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "ORGANIC_SESSION",
+    "value": "1",
+    "domain": ".www.storyblocks.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  }
+]
